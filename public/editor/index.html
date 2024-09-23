@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CYOA Editor</title>
+    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/editor.css">
+</head>
+<body style="display: flex;">
+    <noscript><h1>JavaScript is required to use this page.</h1></noscript>
+    <div id="editor">
+        <button id="export_proj">Export Project</button>
+        <button id="export_html">Export HTML</button>
+        <br>
+        <textarea id="codeEditor">Loading JavaScript...</textarea>
+    </div>
+
+    <iframe id="preview" src="/previewloading.html"></iframe>
+
+    <script src="/editor/editor.js"></script>
+    <script src="/dev.js"></script>
+</body>
+</html>
